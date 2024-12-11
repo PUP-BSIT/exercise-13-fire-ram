@@ -1,11 +1,11 @@
+from colorama import Fore
 import os
 import random
 
 def marc():
     os.system("cls")
     while True:
-        print(f"\033[1;35m{'=' * 50}")
-        print("Hello, I'm Marc D. Vesliño")
+        print(Fore.BLUE + "Hello, I'm Marc D. Vesliño")
         print("1. Basic Information")
         print("2. Goals")
         print("3. Guessing Game")
@@ -14,11 +14,11 @@ def marc():
         print("6. Comment from Andaya")
         print("7. Comment from Piadozo")
         print("0. Exit")
-        print(f"\033[1;35m{'=' * 50}")
 
         menu_choice = int(input("Enter your choice: "))
         
         if menu_choice == 0:
+            print(Fore.RESET)
             break  
 
         match menu_choice:

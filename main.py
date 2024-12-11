@@ -1,4 +1,4 @@
-from ourpackage import barcelos, veslino
+from ourpackage import barcelos, veslino, consultado
 import os
 
 while True:
@@ -21,7 +21,7 @@ while True:
         case '2':
             veslino.marc()
         case '3':
-            pass
+            consultado.kirby()
         case '4':
             pass
         case '5':
