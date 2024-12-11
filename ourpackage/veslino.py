@@ -9,6 +9,7 @@ def marc():
         print("1. Basic Information")
         print("2. Goals")
         print("3. Guessing Game")
+        print("4. Comment from Barcelos")
         print("0. Exit")
         print(f"\033[1;35m{'=' * 50}")
 
@@ -53,7 +54,10 @@ def marc():
                     else:
                         print("You guessed it, Congratulation!")
                         break
-                    
+                
+                input("Press enter to continue")
+            case 4:
+                print("Nice codes. Keep up the good work. - Barcelos")
                 input("Press enter to continue")
             case _: 
                 print("Invalid Choice. Try Again.")
