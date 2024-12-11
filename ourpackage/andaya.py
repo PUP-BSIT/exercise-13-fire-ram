@@ -12,7 +12,7 @@ def gener():
         print("= 3. Comment from Barcelos.                      =")
         print("= 4. Comment from Veslino.                       =")
         print("= 5. Comment from Consultado.                    =")
-        print("= 6. Comment from teammate 4.                    =")
+        print("= 6. Comment from Piadozo.                       =")
         print("= 7. Exit.                                       =")
         print("==================================================")
         
@@ -54,7 +54,7 @@ def gener():
                 print("\nTeammate 3 Consultado: Your code is impressive. Goodjob.")
                 input("\nPlease press enter key to continue!")
             case "6":
-                print("\nTeammate 4 Piadozo: ")
+                print("\nTeammate 4 Piadozo: The design of your code is great LGTM :)")
                 input("\nPlease press enter key to continue!")
             case "7":   
                 print ("\nExiting Menu. Goodbye!\n")
