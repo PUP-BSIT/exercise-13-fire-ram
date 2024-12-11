@@ -11,6 +11,7 @@ def marc():
         print("3. Guessing Game")
         print("4. Comment from Barcelos")
         print("5. Comment from Consultado")
+        print("6. Comment from Andaya")
         print("0. Exit")
         print(f"\033[1;35m{'=' * 50}")
 
@@ -62,6 +63,9 @@ def marc():
                 input("Press enter to continue")
             case 5:
                 print("Your code is good. Good job. - Consultado")
+                input("Press enter to continue")
+            case 6:
+                print("I like the creativity in your menu design! - Andaya")
                 input("Press enter to continue")
             case _: 
                 print("Invalid Choice. Try Again.")
