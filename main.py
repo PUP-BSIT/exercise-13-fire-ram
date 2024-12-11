@@ -1,4 +1,4 @@
-from ourpackage import barcelos, veslino, consultado
+from ourpackage import barcelos, veslino, consultado, andaya
 import os
 
 while True:
@@ -23,6 +23,6 @@ while True:
         case '3':
             consultado.kirby()
         case '4':
-            pass
+            andaya.gener()
         case '5':
             pass
