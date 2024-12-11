@@ -9,6 +9,7 @@ def kevin():
         print("2. Goals")
         print("3. To Do List (Mini task :>)")
         print("4. Comment from Veslino")
+        print("5. Comment from Consultado")
         print("0. To go back")
         menu_choice = int(input("Enter your choice: "))
         print(Fore.RESET)
@@ -27,7 +28,7 @@ def kevin():
                 print(Fore.RED + "\n Goals")
                 print("\nLong Term Goals: ")
                 print(Fore.LIGHTYELLOW_EX + "1. Finish College.")
-                print("2. Get a job.'")
+                print("2. Get a job.")
                 print("3. Invest in assests.")
                 print("4. Get a house.")
                 print("5. Fall in love.")
@@ -43,6 +44,9 @@ def kevin():
                 to_do_list()
             case 4:
                 print("Your code is clean and readable. - Veslino")
+                input("\nPress Enter to continue. ")
+            case 5:
+                print("Your code is good, I like the idea of your code. - Consultado")
                 input("\nPress Enter to continue. ")
             case 0:
                 break
