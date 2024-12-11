@@ -9,6 +9,7 @@ def edriane():
         print ("2. What's your thought to me as a teammate :>")
         print ("3. Rate my function")
         print ("4. Comment from Barcelos. ")
+        print ("5. Comment from Veslino.")
         print ("0. Exit")
         user_choice = int(input("Enter your choice of number: "))
 
@@ -28,38 +29,37 @@ def edriane():
                     know_me = input("Enter your choice: ")
                     
                     if know_me == "g":
-                         print ("Thank you B)")
-                         break
+                        print ("Thank you B)")
+                        break
                         
                     match know_me:
                         case "a":
-                                os.system('cls')
-                                print ("My birthday is January 1 2005")
-                                present = str (input("Do you have a gift for me Y/N ?: "))
+                            os.system('cls')
+                            print ("My birthday is January 1 2005")
+                            present = str (input("Do you have a gift for me Y/N ?: "))
 
-                                if present == 'Y':
-                                    print ("Ahhh thank you :*")
-                                    input()
-                                elif present == "N":
-                                    print ("NOOO")
-                                    input()
-                                    
+                            if present == 'Y':
+                                print ("Ahhh thank you :*")
+                                input()
+                            elif present == "N":
+                                print ("NOOO")
+                                input()
                         case "b":
-                                os.system('cls')
-                                print ("My hobby is playing online games")
-                                input("Press enter to continue")
+                            os.system('cls')
+                            print ("My hobby is playing online games")
+                            input("Press enter to continue")
                         case "c":
-                                os.system('cls')
-                                print ("My favorite movie is Whiplash")
-                                input("Press enter to continue")
+                            os.system('cls')
+                            print ("My favorite movie is Whiplash")
+                            input("Press enter to continue")
                         case "d":
-                                os.system('cls')
-                                print ("My favorite series is Breaking bad and Better Call Saul")
-                                input("Press enter to continue")
+                            os.system('cls')
+                            print ("My favorite series is Breaking bad and Better Call Saul")
+                            input("Press enter to continue")
                         case "e":
-                                os.system('cls')
-                                print ("Let it happen")
-                                input("Press enter to continue")
+                            os.system('cls')
+                            print ("Let it happen")
+                            input("Press enter to continue")
                         case "f":
                             os.system('cls')
                             print ("Become a Game Developer")
@@ -83,21 +83,23 @@ def edriane():
                         input()
                         break
             case 3:
-                  os.system('cls')
-                  rate_my_module = int(input("Enter your rate 1-10: "))
-                  if rate_my_module == 10:
-                       print ("Thanks B)")
-                       input()
-                  elif rate_my_module >= 5 and rate_my_module <= 9:
-                       print ("Why :(")
-                       input()
-                  elif rate_my_module >= 0 and rate_my_module <= 4:
-                       print ("k")
-                       input ()
+                os.system('cls')
+                rate_my_module = int(input("Enter your rate 1-10: "))
+                if rate_my_module == 10:
+                    print ("Thanks B)")
+                    input()
+                elif rate_my_module >= 5 and rate_my_module <= 9:
+                    print ("Why :(")
+                    input()
+                elif rate_my_module >= 0 and rate_my_module <= 4:
+                    print ("k")
+                    input ()
             case 4:
                 print ("Nice codes. Keep up the good work. - Barcelos")
+                input ("Press enter to continue")
+            case 5: 
+                print ("Your code is readable. I like the style. - Veslino")
                 input ("Press enter to continue")
             case _:
                 print ("Invalid choice")
     return " "
-
