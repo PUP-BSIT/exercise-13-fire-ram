@@ -8,6 +8,7 @@ def kevin():
         print(Fore.WHITE + "1. Basic Information")
         print("2. Goals")
         print("3. To Do List (Mini task :>)")
+        print("4. Comment from Veslino")
         print("0. To go back")
         menu_choice = int(input("Enter your choice: "))
         print(Fore.RESET)
@@ -40,6 +41,9 @@ def kevin():
                 input("\nPress Enter to continue. ")
             case 3:
                 to_do_list()
+            case 4:
+                print("Your code is clean and readable. - Veslino")
+                input("\nPress Enter to continue. ")
             case 0:
                 break
             case _: 
