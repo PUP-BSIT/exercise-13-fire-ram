@@ -1,4 +1,4 @@
-from ourpackage import barcelos
+from ourpackage import barcelos, veslino
 import os
 
 while True:
@@ -19,7 +19,7 @@ while True:
         case '1':
             barcelos.kevin()
         case '2':
-            pass 
+            veslino.marc()
         case '3':
             pass
         case '4':
