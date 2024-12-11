@@ -11,6 +11,7 @@ def edriane():
         print ("4. Comment from Barcelos. ")
         print ("5. Comment from Veslino.")
         print ("6. Comment from Consultado.")
+        print ("7. Comment from Andaya.")
         print ("0. Exit")
         user_choice = int(input("Enter your choice of number: "))
 
@@ -103,6 +104,9 @@ def edriane():
                 input ("Press enter to continue")
             case 6: 
                 print ("Your code is clear. Excellent work. - Consultado")
+                input ("Press enter to continue")
+            case 7: 
+                print ("Nice I can see the effort you put into writing this code! - Andaya")
                 input ("Press enter to continue")
             case _:
                 print ("Invalid choice")
