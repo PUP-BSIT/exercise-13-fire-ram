@@ -9,6 +9,7 @@ def kirby():
         print(" 2. My Favorite Quotes")
         print(" 3. Motivational Story")
         print(" 4. Comment from Barcelos")
+        print(" 5. Comment from Veslino")
         print(Fore.RED + "\n                    0 - Exit")
         print(Fore.RESET + "------------------------------")
         
@@ -71,8 +72,11 @@ def kirby():
                 print(" hard work and persistence could overcome any obstacle.")
                 print("\n-------------------------------------------------- This story is based on the life of Thomas Edison. -----")
                 input("\n Press enter to continue.")
-            case 4:
+            case '4':
                 print("Nice codes. Keep up the good work. - Barcelos")
+                input("\n Press enter to continue.")
+            case '5':
+                print("I like the functionalities of your code. - Veslino")
                 input("\n Press enter to continue.")
             case _:
                 input("\n Invalid choice. Try again.")
