@@ -10,6 +10,7 @@ def kevin():
         print("3. To Do List (Mini task :>)")
         print("4. Comment from Veslino")
         print("5. Comment from Consultado")
+        print("6. Comment from Andaya")
         print("0. To go back")
         menu_choice = int(input("Enter your choice: "))
         print(Fore.RESET)
@@ -47,6 +48,9 @@ def kevin():
                 input("\nPress Enter to continue. ")
             case 5:
                 print("Your code is good, I like the idea of your code. - Consultado")
+                input("\nPress Enter to continue. ")
+            case 6:
+                print("Great job on making the menu user-friendly! - Andaya")
                 input("\nPress Enter to continue. ")
             case 0:
                 break
