@@ -4,12 +4,13 @@ import os
 while True:
     os.system('cls')
     print("===============> Fire Ram <===============")
-    print("(1) Kevin Joseph V. Barcelos")
-    print("(2) Marc D. Veslino")
-    print("(3) Kirby G. Consultado")
-    print("(4) Gener A. Andaya")
-    print("(5) Edriane O. Piadozo")
-    print("(0) Exit ")
+    print("1. Kevin Joseph V. Barcelos")
+    print("2. Marc D. Veslino")
+    print("3. Kirby G. Consultado")
+    print("4. Gener A. Andaya")
+    print("5. Edriane O. Piadozo")
+    print("0. Exit ")
+    print("===============> <======> <===============")
     user_choice = input("Enter your choice: ")
 
     if user_choice == '0':
