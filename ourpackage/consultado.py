@@ -10,6 +10,7 @@ def kirby():
         print(" 3. Motivational Story")
         print(" 4. Comment from Barcelos")
         print(" 5. Comment from Veslino")
+        print(" 6. Comment from Andaya")
         print(Fore.RED + "\n                    0 - Exit")
         print(Fore.RESET + "------------------------------")
         
@@ -77,6 +78,9 @@ def kirby():
                 input("\n Press enter to continue.")
             case '5':
                 print("I like the functionalities of your code. - Veslino")
+                input("\n Press enter to continue.")
+            case '6':
+                print("Good job your code is easy to read and understand. - Andaya")
                 input("\n Press enter to continue.")
             case _:
                 input("\n Invalid choice. Try again.")
