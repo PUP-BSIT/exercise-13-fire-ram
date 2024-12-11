@@ -1,4 +1,4 @@
-from ourpackage import barcelos, veslino, consultado, andaya
+from ourpackage import barcelos, veslino, consultado, andaya, piadozo
 import os
 
 while True:
@@ -25,4 +25,4 @@ while True:
         case '4':
             andaya.gener()
         case '5':
-            pass
+            piadozo.edriane()
